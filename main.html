@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Sekai - Main</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Home</div>
+        <div class="box">Nusantara Sekai</div>
+        <div class="box" onclick="logout()">Logout</div>
+    </div>
+    
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Nusantara Sekai</h1>
+            <p>Eksplorasi koleksi fashion terbaik dengan gaya khas Nusantara.</p>
+            <a href="#catalog" class="btn">Lihat Katalog</a>
+        </div>
+    </div>
+    
+    <div id="catalog" class="catalog">
+        <div class="catalog-item">
+            <img src="img/1.png">
+            <p>Kaos A</p>
+        </div>
+        <div class="catalog-item">
+            <img src="img/2.png">
+            <p>Kaos B</p>
+        </div>
+        <div class="catalog-item">
+            <img src="img/3.png">
+            <p>Kaos C</p>
+        </div>
+        <div class="catalog-item">
+            <img src="img/4.png">
+            <p>Kaos D</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div>Selamat Berbelanja di Nusantara Sekai!</div>
+    </div>
+
+    <script>
+        function logout() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
