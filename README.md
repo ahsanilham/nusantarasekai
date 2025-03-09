@@ -15,10 +15,11 @@ Nusantara Sekai adalah website e-commerce sederhana untuk brand clothing berbasi
 Nusantara-Sekai/
 │── index.html      # Halaman beranda
 │── main.html       # Halaman utama katalog
+│── register.html   # Halaman register
+│── login.html      # Halaman login
 │── styles/
 │   └── style.css   # File CSS utama
 │── img/
-│   ├── hero.jpg    # Background hero section
 │   ├── 1.png       # Gambar produk
 │   ├── 2.png
 │   ├── 3.png
